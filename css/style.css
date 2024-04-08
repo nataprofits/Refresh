@@ -1,3 +1,104 @@
-h1{
-    color: blueviolet;
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: gray;
+}
+
+.link{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link:hover,
+.link:focus{
+    color: #FF6C00;
+}
+
+.btn{
+   font-family: inherit;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 1.3;
+   letter-spacing: 0.09em;
+   text-transform: uppercase;
+   color: #ffffff;
+   background-color: transparent;
+   border: 1px solid #FF6C00;
+   border-radius: 25px;
+}
+.header-link{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.header-link:hover{
+    color:#FF6C00;
+}
+
+.header-list{
+    list-style: none;
+}
+
+.header-phone{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+/* HERO */
+.hero {
+}
+.hero-text_top {
+    font-family: 'Open Sans';
+    font-size: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #9DA4BD99;
+}
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    color: #ffffff;
+    margin: 0;
+}
+.hero-tex_bottom {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD99;
+}
+.hero-list {
+}
+.list {
+}
+.hero-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+}
+.link {
 }

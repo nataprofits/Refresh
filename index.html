@@ -4,40 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Refresh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <nav>
         <a href="/">
           <img src="./Img/Logo.png" width="68" height="55" alt="logo" />
         </a>
-        <ul>
-          <li><a href="/">About</a></li>
-          <li><a href="#section-2">Service</a></li>
-          <li><a href="/">Barbers</a></li>
-          <li><a href="/">Contacts</a></li>
+        <ul class="header-list">
+          <li><a class="header-link link" href="/">About</a></li>
+          <li><a class="header-link link" href="#section-2">Service</a></li>
+          <li><a class="header-link link" href="/">Barbers</a></li>
+          <li><a class="header-link link" href="/">Contacts</a></li>
         </ul>
       </nav>
     </header>
 
-    <a href="tel:+11(000)11111111">+11 (000) 1111111</a>
-    <button type="button">ONLINE-BOOKING</button>
+    <a class="header-phone link" href="tel:+11(000)11111111">+11 (000) 1111111</a>
+    <button class="header-btn btn" type="button">ONLINE-BOOKING</button>
+    
     <main>
-      <section>
-        <p>A hair salon for men in York</p>
-        <h1>BarberShop</h1>
-        <p>
+      <section class="hero">
+        <p class="hero-text_top">A hair salon for men in York</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-tex_bottom">
           We are experts in trendy men's haircuts. Wework quickly, carefully and
           with style.
         </p>
-        <address>
-          <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Youtube</a></li>
+          <ul class="hero-list list">
+            <li class="hero-link"><a class="link" href="#">Instagram</a></li>
+            <li class="hero-link"><a class="link" href="#">Youtube</a></li>
           </ul>
-        </address>
       </section>
       <section id="section-2">
         <ul>
@@ -198,7 +200,7 @@
         <address>
           <ul>
             <li>
-              <a
+              <a class="link"
                 href="https://maps.app.goo.gl/jCjV5nDZDGr1JTXN6"
                 target="_blank"
                 rel="nofollow noopener norefere"
@@ -206,22 +208,23 @@
               >
             </li>
             <li>
-              <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
+              <a class="link" href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
             </li>
             <li>
-              <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+              <a class="link" href="mailto:barbershop@email.com">barbershop@email.com</a>
             </li>
           </ul>
           <p>Working hours</p>
           <p>Every day from 9:00 to 22:00</p>
         </address>
       </section>
+
     </main>
     <footer>
       <p>© Copyright 2020</p>
       <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Youtube</a></li>
+        <li><a class="link" href="#">Instagram</a></li>
+        <li><a class="link" href="#">Youtube</a></li>
       </ul>
     </footer>
   </body>
